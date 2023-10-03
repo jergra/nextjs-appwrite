@@ -2,10 +2,17 @@ import {NextResponse} from 'next/server'
 
 export async function GET() {
     try {
-        const response = NextResponse.json({
-            message: 'logout successful',
-            success: true
-        })
+        const response = NextResponse.json(
+            {
+                message: 'logout successful',
+                success: true
+            }, 
+            {
+                headers: {
+                    'Cache-Control': 'no-store, max-age=0'
+                }
+            }
+        )
         
         response.cookies.set('token', '', {httpOnly: true, expires: new Date(0)})
 
