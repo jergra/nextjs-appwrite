@@ -2,7 +2,7 @@
 
 oct 2, 2023
 
-dev/nextjs-appwrite
+dev/nextjs-appwrite on the linux mint computer
 
 from tutorial:
     Next.js & Appwrite – Full Stack Course for Beginners
