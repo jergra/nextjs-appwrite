@@ -10,7 +10,7 @@ from tutorial:
 
     by Hitesh Choudhary
 
-This is an authentication app built with nextjs 13, mongoDB, tailwind, nodemailer, appwire.
+This is an authentication app built with nextjs 13, mongoDB, tailwind, nodemailer, appwrite.
 
 start:
     npm run dev
